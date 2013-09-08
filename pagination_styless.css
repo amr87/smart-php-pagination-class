@@ -1,0 +1,50 @@
+@import "http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css";
+
+
+body{ font: 20px Arial;}
+
+p{font:16px Tahoma }
+
+a.link{
+ display:block;
+ float:left;
+ margin:5px;
+ text-align:center;
+ background:#eee;
+ background:-moz-linear-gradient(#eee,#fff);
+ background:-webkit-linear-gradient(#eee,#fff);
+ background:-o-linear-gradient(#eee,#fff);
+ background:-ms-linear-gradient(#eee,#fff);
+ background:linear-gradient(#eee,#fff);
+-moz-box-shadow:inset 1px 2px 0px rgba(255,255,255,0.8),0px 0px 1px rgba(0,0,0,0.3);
+-webkit-box-shadow:inset 1px 2px 0px rgba(255,255,255,0.8),0px 0px 1px rgba(0,0,0,0.3);
+-o-box-shadow:inset 1px 2px 0px rgba(255,255,255,0.8),0px 0px 1px rgba(0,0,0,0.3);
+-ms-box-shadow:inset 1px 2px 0px rgba(255,255,255,0.8),0px 0px 1px rgba(0,0,0,0.3);
+ box-shadow:inset 1px 1px 0px rgba(255,255,255,0.8),0px 0px 1px rgba(0,0,0,0.3);
+ border-radius:3px;
+ border:1px solid #aaa;
+ padding:4px 3px;
+ width:30px;
+ color:#444;
+ text-decoration:none;
+ transition:all  0.5s ease;
+}
+
+a.link:hover,a.active,a.status{
+ background:#666;
+ -moz-background:linear-gradient(#777,#666);
+ -webkit-background:linear-gradient(#777,#666);
+ -o-background:linear-gradient(#777,#666);
+ -ms-background:linear-gradient(#777,#666);
+ background:linear-gradient(#777,#666);
+ color:#FFF;
+  -moz-box-shadow:0px 0px 1px rgba(0,0,0,0.3);
+  -webkit-box-shadow:0px 0px 1px rgba(0,0,0,0.3);
+  -o-box-shadow:0px 0px 1px rgba(0,0,0,0.3);
+  -ms-box-shadow:0px 0px 1px rgba(0,0,0,0.3);
+ box-shadow:0px 0px 1px rgba(0,0,0,0.3);
+}
+
+a.status{
+ width:auto !important;
+}

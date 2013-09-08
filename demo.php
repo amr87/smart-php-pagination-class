@@ -13,7 +13,7 @@ $cid = (int)@$_GET['c_id'];
 // setting the configuration associative array
 
     $config = array(
-	  "sql" => "SELECT * FROM articles2 ORDER BY id ASC",  // define your sql
+	  "sql" => "SELECT * FROM articles2 WHERE c_id = $cid ORDER BY id ASC",  // define your sql
 	  "perPage" =>  5,  //define results number per page
 	  "numLinks" => 5,  //define how many links should appear in the navigation 
 	  "urlParams"=>"c_id=$cid",  //passing additional paramters for the url and for the sql 

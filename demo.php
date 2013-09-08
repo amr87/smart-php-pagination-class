@@ -1,6 +1,6 @@
 // 1- open the database connection
 
-require "conection.php";
+require "connection.php";
 
 <?php
 
